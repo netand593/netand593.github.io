@@ -1,0 +1,47 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #00a6e0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container h2 {
+    color: #00a6e0;
+    margin-top: 20px;
+}
+
+.container p {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #00a6e0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
