@@ -10,6 +10,18 @@ body {
     color: #333;
 }
 
+/* Light Mode Styles */
+body.light-mode {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
 header {
     background-color: #00a6e0;
     color: white;
@@ -46,14 +58,3 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Light Mode Styles */
-body.light-mode {
-    background-color: #fff;
-    color: #333;
-}
-
-/* Dark Mode Styles */
-body.dark-mode {
-    background-color: #333;
-    color: #fff;
-}
