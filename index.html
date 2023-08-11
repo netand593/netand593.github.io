@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Resume</title>
+    <title>Andres Zurita - Resume</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -32,8 +33,9 @@
         <p>Web Developer</p>
     </header>
     <div class="container">
+        
         <h2>About Me</h2>
-        <p>Write a brief introduction about yourself here.</p>
+        <p>I'm a Master Student/DevOps Enginer in Germany. I came here in October 2021 and will (hopefully) finish my master in March 2023!.</p>
         
         <h2>Education</h2>
         <p>Bachelor's Degree in Computer Science, University Name, Graduation Year</p>
@@ -49,11 +51,23 @@
             <li>Responsive Design</li>
             <li>Version Control (Git)</li>
         </ul>
-        
+        <button id="toggleSkills">Toggle Skills</button>
         <h2>Contact</h2>
         <p>Email: yourname@example.com</p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/yourname/">linkedin.com/in/yourname/</a></p>
         <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
     </div>
+    <script>
+        const toggleButton = document.getElementById('toggleSkills');
+        const skillsList = document.getElementById('skillsList');
+        
+        toggleButton.addEventListener('click', () => {
+            if (skillsList.style.display === 'none') {
+                skillsList.style.display = 'block';
+            } else {
+                skillsList.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 </html>
